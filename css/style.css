@@ -1,0 +1,16 @@
+:root {
+    --tip: #06a9b0;
+    --top: #f5f5f5;
+    --bg: #ffffff;
+    --toptxt: #878787;
+    --navtxt: #45473c;
+    --login: #09a2c4;
+    --usdoll: #e6e6e6;
+    --cart: #13bfcb;
+    --logo: #13bfcb;
+    --fashion: #13c6c2;
+}
+
+.list-item, .welcome{
+    font-size: 12px;
+}
