@@ -14,3 +14,65 @@
 .list-item, .welcome{
     font-size: 12px;
 }
+
+#topHeader{
+    background-color: var(--top);
+    border: 1px solid black;
+
+}
+h1{
+    position: relative;
+    top: -30px;
+}
+
+.circle{
+    position: relative;
+    top: 25px;
+    left: -3px;
+    z-index: -1;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--logo);
+}
+
+.ve {
+    color: white;
+    text-transform: capitalize;
+}
+
+.period {
+    position: relative;
+    left: -15px;
+    color: var(--logo);
+
+}
+
+.top-btns, .h1{
+    border: 1px solid green;
+}
+
+.top-btn {
+    font-size: 14px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 0;
+    text-transform: capitalize;
+}
+
+.welcome{
+    border: 1px solid orange;
+}
+
+p {
+    margin: 0;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-item, .welcome {
+    color: var(--toptxt);
+}
