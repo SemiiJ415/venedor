@@ -64,7 +64,8 @@
                             <p class="dollar">US dollar</p>
                     </div>
                     <div class="col btn top-btn" id="btn2">
-                            <p class="eng">english</p>
+                            <p class="eng">
+                            <img src="images/englflag.jpg" alt="english flag" class="flag img-fluid"> english</p>
                     </div>
                     <div class="col btn top-btn" id="btn3">
                             <p class="cart">
@@ -74,9 +75,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row" id="thirdRow">
-                <div class="col-8">
-                    <ul class="nav">
+            <div class="row justify-content-between" id="thirdRow">
+                <div class="col-5">
+                    <ul class="nav nav-list">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#">fashion</a>
                         </li>
@@ -97,9 +98,9 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-2">
+                <div class="col-3">
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                                 <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -115,6 +116,71 @@
             <div class="banner-img">
                 <img src="images/hero.jpg" alt="banner" class="img-fluid">
             </div>
+        </section>
+        <section class="section" id="promoinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col promo" id="shipping">
+                        <img src="images/truck.jpg" alt="free shipping on orders over $150" class="img-fluid ship">
+                    </div>
+                    <div class="col promo" id="sale">
+                        <img src="images/sale.jpg" alt="sale sign" class="img-fluid sale">
+                    </div>
+                    <div class="col promo" id="new">
+                        <img src="images/shoes.jpg" alt="new arrivals" class="img-fluid new">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="latest">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="h2 col">
+                            <h2 class="h2 latest vc_text_separator wpb_content_element separator_align_left  page-title entry-title text-capitalize"><span>latest</span></h2>
+                            <!-- <h2 class="h2 latest hr">latest</h2> -->
+                    </div>
+                    <div class="arrows col-2 text-end">
+                            <div class="btn back-arrow"><</div>
+                            <div class="btn forward-arrow">></div>
+                        </div>
+                    </div>
+                    <p class="latest-text">Buy discount items from the latest collections of world brands.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="card-group group">
+                            <div class="card">
+                                <img src="images/card1.jpg" class="card-img-top" alt="...">
+
+                                    <button type="button" class="btn text-capitalize">add to cart</button>
+                            </div>
+                            <div class="card">
+                                <img src="images/card2.jpg" class="card-img-top" alt="...">
+                                <button type="button" class="btn text-capitalize">add to cart</button>
+                            </div>
+                            <div class="card">
+                                <img src="images/card3.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="images/card4.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
     <footer class="footer"></footer>

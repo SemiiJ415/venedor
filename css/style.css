@@ -16,8 +16,9 @@
 }
 
 #topHeader{
+    border-top: 2px solid var(--tip);
     background-color: var(--top);
-    border: 1px solid black;
+    /* border: 1px solid black; */
 
 }
 h1{
@@ -48,8 +49,11 @@ h1{
 
 }
 
-.top-btns, .h1{
+.{
     border: 1px solid green;
+}
+.nav-link{
+    padding-left: 0;
 }
 
 .top-btn {
@@ -58,10 +62,17 @@ h1{
     border: 1px solid black;
     border-radius: 0;
     text-transform: capitalize;
+    color:#777;
+    background-color: var(--usdoll);
+}
+
+#btn3{
+    color: white;
+    background-color: var(--cart);
 }
 
 .welcome{
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
 }
 
 p {
@@ -75,4 +86,69 @@ a {
 
 .link-item, .welcome {
     color: var(--toptxt);
+}
+
+.flag {
+    width: 15px;
+    height: 10px;
+
+}
+
+.promo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.back-arrow{
+    background-color: var(--usdoll);
+}
+
+.forward-arrow{
+    color: white;
+    background-color: var(--fashion);
+}
+
+/* .border-line {
+    border-top: 1px solid hotpink;
+} */
+
+
+/* headings with horizontal lines from https://codepen.io/milojennings/pen/ndVvzJ */
+.separator_align_left{
+    text-align: left;
+}
+[class*=separator_align_] > span {
+    display: inline-block;
+    position: relative;  
+}
+[class*=separator_align_] > span:after {
+    content: "";
+    position: absolute;
+    left: 90px;
+    height: .4em; /*offset between lines*/
+    border-bottom: 1px solid #999;
+    /* border-top: 1px solid #000; */
+    top: .4em;
+    
+    /*background: rgba(#fff, .3);*/
+    
+    /* set way wider than it needs to be.
+     * It will be cutoff
+    **/
+    width: 920px;
+    
+}
+
+.latest{
+    margin: 0;
+    padding-left: 5px;
+    border-left: 2px solid var(--fashion);
+}
+
+.latest-text{
+    margin-top: -15px;
+}
+
+.group{
+    margin-top: 30px;
 }
