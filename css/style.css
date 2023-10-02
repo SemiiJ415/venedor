@@ -11,7 +11,8 @@
     --fashion: #13c6c2;
 }
 
-.list-item, .welcome{
+
+.list-item, .welcome-login{
     font-size: 12px;
 }
 
@@ -71,8 +72,8 @@ h1{
     background-color: var(--cart);
 }
 
-.welcome{
-    /* border: 1px solid orange; */
+span{
+    text-transform: capitalize;
 }
 
 p {
@@ -124,7 +125,24 @@ a {
 [class*=separator_align_] > span:after {
     content: "";
     position: absolute;
-    left: 90px;
+    left: 100px;
+    height: .4em; /*offset between lines*/
+    border-bottom: 1px solid #999;
+    /* border-top: 1px solid #000; */
+    top: .4em;
+    
+    /*background: rgba(#fff, .3);*/
+    
+    /* set way wider than it needs to be.
+     * It will be cutoff
+    **/
+    width: 920px;
+    
+}
+[class*=separator_align_2] > span:after {
+    content: "";
+    position: absolute;
+    left: 100px;
     height: .4em; /*offset between lines*/
     border-bottom: 1px solid #999;
     /* border-top: 1px solid #000; */
@@ -139,10 +157,16 @@ a {
     
 }
 
-.latest{
+
+
+.latest, .welcome-head, .bestseller{
     margin: 0;
     padding-left: 5px;
-    border-left: 2px solid var(--fashion);
+    border-left: 4px solid var(--fashion);
+}
+
+.best{
+    padding-right: 10px;
 }
 
 .latest-text{
@@ -151,4 +175,18 @@ a {
 
 .group{
     margin-top: 30px;
+    margin-bottom: 60px;
 }
+
+.cart-btn{
+    width: 50%;
+    color: white;
+    /* box-shadow: 0 -1px black; */
+    background-color: #555;
+    border-top-color: 1px solid #777;
+}
+.welcome-text{
+    margin: 0;
+    padding: 0;
+    text-indent: 30px;
+} 
