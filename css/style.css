@@ -225,11 +225,14 @@ a {
     background-color: #13c6c2;
 }
 
+#bottomFooter{
+    background-color: var(--footerbg);
+}
 .socials-list{
     padding: 0;
 }
 .socials-list-item{
-    padding: 0;
+    padding: 5px;
     list-style-type: none;
 }
 
